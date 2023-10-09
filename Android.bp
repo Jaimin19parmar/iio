@@ -1,0 +1,25 @@
+//Android.bp
+
+cc_binary{
+
+	name: "lsiio",
+	srcs: ["lsiio.c",
+              "iio_utils.c"],
+}
+
+
+cc_binary{
+
+        name: "iio_generic_buffer",
+        srcs: ["iio_generic_buffer.c",
+              "iio_utils.c"],
+}
+
+
+cc_binary{
+
+        name: "iio_event_monitor",
+        srcs: ["iio_event_monitor.c",
+              "iio_utils.c"],
+}
+
