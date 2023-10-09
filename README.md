@@ -33,6 +33,8 @@ This repository contains a ported version of the IIO (Industrial I/O) utility fo
     Follow the standard procedure to build your AOSP image. The IIO utility will be included as part of the build process.
 
     ```bash
+    source build/envsetup.sh
+    lunch   target
     cd aosp/external/iio/
     mma
     or
@@ -40,7 +42,7 @@ This repository contains a ported version of the IIO (Industrial I/O) utility fo
     ```
 4. **Output Binary:**
 
-    The output binary by default is at: path/aosp/out/target/product/*Specific_device/system/bin/
+    The output binary by default is at: path/aosp/out/target/product/target/system/bin/
 
 
 ## Usage
