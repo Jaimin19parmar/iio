@@ -16,7 +16,7 @@ This repository contains a ported version of the IIO (Industrial I/O) utility fo
 1. **Clone the Repository:**
 
     ```bash
-    git clon  git@github.com:Jaimin19parmar/iio.git
+    git clone  git@github.com:Jaimin19parmar/iio.git
     ```
 
 2. **Integrate with AOSP:**
